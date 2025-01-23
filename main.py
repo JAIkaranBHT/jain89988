@@ -22,15 +22,15 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAFjJcYGt39KDV4hYB6dWX22Y85vE-B5t1Q"
+token = "7565902826:AAGoyolljJTnztRxOU1_4cDagAzRS18anaA"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
-admin=6191863486
+admin=6944234647
 
-myid = ['6191863486']
+myid = ['6944234647']
 
-admins = ['6191863486']
+admins = ['6944234647']
 
 
 content = [
@@ -2271,7 +2271,7 @@ def check_user_plan(user_id):
     return False
     
     
-BOT_OWNER_ID = 6191863486  # Replace with your Telegram ID (no quotes)
+BOT_OWNER_ID = 6944234647  # Replace with your Telegram ID (no quotes)
 
 @bot.message_handler(commands=['gay'])
 def gay_command(message):
@@ -2388,7 +2388,7 @@ def get_draw(message):
 
 
 
-myid = ['6191863486']
+myid = ['6944234647']
 @bot.message_handler(commands=["tot"])
 def adode(message):
     if str(message.from_user.id) in myid:
